@@ -1,0 +1,49 @@
+﻿Build started 11/18/2014 22:27:09.
+     1>Project "C:\Users\User1\Desktop\Tema2egc\lab3\lab2\lab2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Idependente /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\object2d.h(23): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\object3d.h(18): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\object3d.h(37): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\object3d.h(42): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\object3d.h(55): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\object3d.h(60): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\circle2d.h(24): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\framework\circle2d.h(48): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(21): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(116): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(119): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(137): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(138): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(143): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(144): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(149): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(167): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(174): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(181): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(188): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(193): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(198): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(208): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(215): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(221): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(227): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(233): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(244): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(250): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(387): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user1\desktop\tema2egc\lab3\lab2\main.cpp(391): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User1\Desktop\Tema2egc\lab3\Debug\lab2.exe" /INCREMENTAL /NOLOGO /LIBPATH:dependente freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User1\Desktop\Tema2egc\lab3\Debug\lab2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User1\Desktop\Tema2egc\lab3\Debug\lab2.lib" /MACHINE:X86 Debug\DrawingWindow.obj
+         Debug\Transform2D.obj
+         Debug\Transform3D.obj
+         Debug\Visual2D.obj
+         Debug\main.obj
+         lab2.vcxproj -> C:\Users\User1\Desktop\Tema2egc\lab3\Debug\lab2.exe
+     1>Done Building Project "C:\Users\User1\Desktop\Tema2egc\lab3\lab2\lab2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.47
